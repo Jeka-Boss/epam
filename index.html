@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,700;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="countingMenu">
+        <p class="title">Fast calculating the profit of the deposit account</p>
+        <form>
+            <label class="inline" for="">Amout of money:</label>
+             <label class="block-input" id="moneyAll">
+                 <input class="bold" type="number" placeholder="100000" name="moneyAll" required>
+             </label>
+
+             <label class="inline" for="">Number of years:</label>
+             <label class="block-input" id="numOfYear">
+                <input class="bold" type="number" placeholder="5" name="numOfYear" required>
+            </label>
+
+             <label class="inline" for="">Percentage of year:</label>
+             <label class="block-input" id="perc">
+                <input class="bold" type="number" placeholder="10" name="perc" required>
+            </label>
+
+            <input class="submit" type="submit" value="Submit">
+            <!-- <button class="submit">Summit</button> -->
+        </form>
+            
+       
+    </div>
+
+    <div class="showProfit">
+        <h1>Total profit</h1>
+        <p class="tp totalProfit">100</p><span>$</span>
+        <h1>Total amount</h1>
+        <p class="tp totalAmount">13213</p><span>$</span>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"> </script>
+</body>
+</html>
